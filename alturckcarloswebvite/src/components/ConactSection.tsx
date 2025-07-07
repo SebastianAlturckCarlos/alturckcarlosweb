@@ -1,13 +1,4 @@
-import {
-  Instagram,
-  Linkedin,
-  Mail,
-  MapPin,
-  Phone,
-  Send,
-  Twitch,
-} from "lucide-react";
-import { cn } from "../lib/utils";
+import { Instagram, Linkedin, Mail, MapPin, Phone, Twitch } from "lucide-react";
 
 export const ContactSection: React.FC = () => {
   return (
@@ -24,10 +15,8 @@ export const ContactSection: React.FC = () => {
 
         <div className="flex flex-col items-center text-center">
           <div className="space-y-8">
-            <h3 className="text-2xl font-semibold">
-              Contact Information
-            </h3>
-            
+            <h3 className="text-2xl font-semibold">Contact Information</h3>
+
             {/* Horizontal contact items */}
             <div className="flex flex-col md:flex-row gap-8 md:gap-12 justify-center items-start">
               <div className="flex flex-col items-center space-y-2 w-full md:w-48">
@@ -42,7 +31,7 @@ export const ContactSection: React.FC = () => {
                   salturckcarlos@gmail.com
                 </a>
               </div>
-              
+
               <div className="flex flex-col items-center space-y-2 w-full md:w-48">
                 <div className="p-3 rounded-full bg-primary/10">
                   <Phone className="h-6 w-6 text-primary" />
@@ -55,7 +44,7 @@ export const ContactSection: React.FC = () => {
                   +1 913 214 7901
                 </a>
               </div>
-              
+
               <div className="flex flex-col items-center space-y-2 w-full md:w-48">
                 <div className="p-3 rounded-full bg-primary/10">
                   <MapPin className="h-6 w-6 text-primary" />
@@ -66,7 +55,7 @@ export const ContactSection: React.FC = () => {
                 </span>
               </div>
             </div>
-            
+
             <div className="pt-8">
               <h4 className="font-medium mb-4">Connect With Me</h4>
               <div className="flex space-x-4 justify-center">
@@ -77,15 +66,15 @@ export const ContactSection: React.FC = () => {
                 >
                   <Linkedin className="h-6 w-6 text-primary" />
                 </a>
-                <a 
-                  href="https://www.instagram.com/seb.rhoton/" 
+                <a
+                  href="https://www.instagram.com/seb.rhoton/"
                   target="_blank"
                   className="p-2 rounded-full hover:bg-primary/10 transition-colors"
                 >
                   <Instagram className="h-6 w-6 text-primary" />
                 </a>
-                <a 
-                  href="https://www.twitch.tv/unir6" 
+                <a
+                  href="https://www.twitch.tv/unir6"
                   target="_blank"
                   className="p-2 rounded-full hover:bg-primary/10 transition-colors"
                 >
