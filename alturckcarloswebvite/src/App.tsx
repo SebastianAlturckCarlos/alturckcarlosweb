@@ -4,9 +4,9 @@ import { NotFound } from "./pages/NotFound";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/alturckcarlosweb">
       <Routes>
-        <Route index element={<Home />}></Route>
+        <Route path="/" element={<Home />}></Route>
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
