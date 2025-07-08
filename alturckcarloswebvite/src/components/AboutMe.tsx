@@ -31,7 +31,7 @@ export const AboutMe: React.FC = () => {
                 Get In Touch
               </a>
               <a
-                href="/CV.pdf"
+                href={`${import.meta.env.BASE_URL}CV.pdf`}
                 download="Carlos_Alturck_CV.pdf"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >

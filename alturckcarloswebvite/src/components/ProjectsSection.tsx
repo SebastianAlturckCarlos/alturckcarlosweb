@@ -6,7 +6,7 @@ const projects = [
     title: "RTSPro",
     description:
       "Trucking web application used for fuel discounts, route planning, and more.",
-    image: "/public/projects/rtsproimg.jpg",
+    image: `${import.meta.env.BASE_URL}projects/rtsproimg.jpg`,
     tags: ["React", "Node.js", "Express", "MongoDB", "TypeScript"],
     link: "https://rtspro.com",
     ghlink: "https://github.com/SebastianAlturckCarlos",
@@ -16,7 +16,7 @@ const projects = [
     title: "KSU R6 Website",
     description:
       "Kansas State University's Rainbow Six Siege esports team website.",
-    image: "/public/projects/ksur6.png",
+    image: `${import.meta.env.BASE_URL}projects/ksur6.png`,
     tags: ["HTML", "CSS", "GitHub Pages"],
     link: "https://ksur6.orgs",
     ghlink: "https://github.com/SebastianAlturckCarlos/ksur6.org",
@@ -26,7 +26,7 @@ const projects = [
     title: "CS Job Search",
     description:
       "Computer Science job search platform for students looking for internships.",
-    image: "/public/projects/csjobs.png",
+    image: `${import.meta.env.BASE_URL}projects/csjobs.png`,
     tags: ["React", "Node.js", "MongoDB", "JavaScript"],
     link: "https://csjobs.lol",
     ghlink: "https://github.com/w1lt/csjobs",
