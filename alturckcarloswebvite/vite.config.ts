@@ -3,7 +3,10 @@ import react from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
 
 // https://vite.dev/config/
-export default defineConfig({
-  plugins: [react(), tailwindcss()],
-  base: "/alturckcarlosweb/", // Updated to match your GitHub repository name
+export default defineConfig(() => {
+  // Use root path for custom domain
+  return {
+    plugins: [react(), tailwindcss()],
+    base: "/",
+  };
 });
